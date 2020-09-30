@@ -4,10 +4,10 @@ This is a simple online store. Browse and click through for more details.
 
 ## Table of contents
 
-1. Installation
-2. Usage
-3. Credits
-4. Technical information
+- Installation
+- Usage
+- Credits
+- Technical information
 ------------------------
 
 ## Installation
