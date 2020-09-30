@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .container {
+            height: 35vh;
+        }
+    </style>
+    <title> Buy Online | Dash.com </title>
+</head>
+
+<body class="pageView">
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="landing-page.html" style="color:#66e9a3;">DASH.COM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="delivery-page.html">SHIPPING DETAILS <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="about-us.html">ABOUT US<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-3">
+            <li class="cart nav-item active">
+                <a href="cart.html" class="btn btn-danger">
+                    Cart <span class="badge badge-light">0</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <br>
+    <!--   Create a new html page for the cart section which allows the user to see
+what is in their cart, each item’s price, and the total cost (remember to add
+VAT!) -->
+    <!-- My intention is always to finish but this instruction is way to complicated for me at this point. I have to submit in order to continue because i am falling behind.  -->
+    <!-- Create a form which allows for “discount coupons”. -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Add coupon</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-success btn-lg btn-block" onclick="confirmOrder()">Confirm order</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <footer class="footer">
+                    <div id="footer-style" class="text-center">
+                        <span>
+                            Kurt Jacobus | Web Developer Cape Town
+                        </span>
+                        <br>
+                        <p><a href="mailto:kurtjacobus@gmail.com">kurtjacobus@gmail.com</a></p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer section -->
+    <script src="main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
