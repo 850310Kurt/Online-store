@@ -18,7 +18,7 @@ Simply download all files and run in IDE. eg Sublime or Visual Studio Code.
 
 ## Usage
 
-This is link any online store. Simply click through and browse.
+This is like most online store. Simply click through and browse.
 
 ----------------------------------------------------------------
 
